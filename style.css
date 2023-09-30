@@ -1,0 +1,85 @@
+/************************** Coded by Faizal ******************/
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: rgb(160, 160, 160);
+    font-family: Open Sans;
+}
+
+/* Main Box */
+.container {
+    margin: 100px auto;
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 89, 255, 0.322);
+}
+
+/* Heading */
+h3 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Paragraphy */
+p {
+    font-size: 12px;
+}
+
+/* Paragraphy 1 */
+.p1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Paragraphy 2 */
+.p2 {
+    text-align: center;
+}
+
+/* Input Box */
+.input {
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Button */
+button {
+    width: 150px;
+    height: 50px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 89, 255);
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px rgb(0, 89, 255);
+}
+
+/* Checkbox */
+.c1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.c2 {
+    margin-left: 5px;
+    font-size: 12px;
+    display: inline;
+}
